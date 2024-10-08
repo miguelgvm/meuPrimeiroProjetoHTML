@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   
+   <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Formulário Para Novos Usuários:</title>
+      <style>
+        form {
+           text-align: center;
+        }
+        p {
+            margin: 10px  0;
+         }
+        body {
+              background: rgb(30, 48, 48);
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+        }
+                 h1 {
+              color: #111111;
+              font-size: 24px;
+        }
+                 button {
+              background-color: #f8ee61; /* Verde */
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              }
+     </style>
+   </head>
+  <body>
+
+    <form method="#" action="#URL">
+     <h1>Formulário de Inscrição:</h1>
+  
+    <p>
+         <label for="nome">Nome Completo:</label><br>
+         <input name="nome" type="text"/>
+    </p>
+    <p>
+        <label for="email"> Endereço de Email:</label><br>
+        <input name="email" type="email"/>
+   </p>
+   <p>
+         <label for="senha">Senha:</label><br>
+         <input name="senha" type="password"/>
+    </p>
+    <p>
+        <label for="csenha">Confirmar Senha:</label><br>
+        <input name="csenha" type="password"/>
+   </p>
+   <p>
+     <label for="perfil">Qual Sua Profissão?</label><br>
+        <select name="perfil">
+            <option value="" date-default disabled selected></option>
+            <option value="professor" >Professor</option>
+            <option value="jogador">Jogador</option>
+            <option value="microsoft">Administrador</option>
+        </select>
+   </p>
+   
+   <p><button type="submit" > Confirmar Inscrição:</button> </p>
+
+
+    
+  </body>
+</html>
