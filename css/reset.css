@@ -1,1 +1,27 @@
-
+body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+label {
+    color: #111111;
+}
+input {
+    color: #4caf50;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #4caf50;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #4caf50;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
